@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <title>Document</title>
+     <style>
+        .box{
+            height: 200px;
+            width: 100px;
+            background-color: aqua;
+            animation-name: moveright;
+            animation-duration: 10s;
+            animation-delay: 1ms;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            
+
+        }
+        @keyframes moveright{
+           from{                          
+            transform: translateX(0) scaleX(2.5) ;
+            
+           }
+          
+           to{
+          transform: translateX(200px) scale(0.5,0.5);;
+           
+           }
+        }
+        .box1{
+            height: 200px;
+            width: 100px;
+            background-color: aqua;
+            animation-name: movetopbottom;
+            animation-duration: 10s;
+            animation-delay: 1ms;
+             animation-iteration-count: infinite;
+            animation-direction: reverse;
+
+        }
+             @keyframes movetopbottom{
+           from{                          
+            transform: translateY(0);
+           }
+          
+           to{
+          transform: translateY(200px);
+           }
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <h3>Animation-name</h3>
+    <div class="box"> </div>
+
+
+    <h3>Animation</h3>
+    <div class="box1"> </div>
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+
+.h1{
+  
+   border: 10px groove rgb(0, 217, 255);
+   margin: 5px;
+   background-color: rgb(50, 49, 49);
+ 
+ 
+}
+.logoji{
+
+    margin-top: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 25px;
+   animation-name: logo;
+   animation-duration: 2s;
+   
+   animation-timing-function: linear  ;
+}
+
+@keyframes logo {
+  from{
+    transform: rotate(0deg)scale(1.0);
+  }
+  to{
+    transform: rotate(360deg) scale(1.1);
+  }
+  
+}
+.name1{
+   color :white;
+   text-align: center;
+    background-color: rgb(50, 49, 49);
+  width: 500px;
+  display: inline-block;
+ padding-left: 350px;
+ margin-bottom: 20px;
+
+ animation-name: movetoptobotton1;
+    animation-duration: 2s;
+}
+@keyframes movetoptobotton1{
+           from{   
+            opacity: 0;                       
+            transform: translateY(-20px) ;
+            
+           }
+          
+           to{
+            opacity: 1 ;
+          transform: translateY(0);
+           
+           }
+        }
+body{
+   
+   
+    background-size: cover;
+    background-repeat:cover;
+    height: 100vh;
+    width: 100%; 
+   padding: 2rem; 
+   display: flex; 
+   flex-wrap: wrap; 
+   justify-content: center; 
+   gap: 2rem;
+   border-radius: 30%;
+}
+.home
+{
+     border: 10px solid aqua;
+  padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;  
+   
+}
+.button1
+{
+    
+    background-color:skyblue;
+    animation-name: movetoptobotton;
+    animation-duration: 2s;
+
+}
+@keyframes movetoptobotton{
+           from{   
+            opacity: 0;                       
+            transform: translateY(-20px) ;
+            
+           }
+          
+           to{
+            opacity: 1 ;
+          transform: translateY(0);
+           
+           }
+        }
+.image1{
+    text-align: center;
+    color: rgb(5, 3, 0);
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+   border: 15px groove aqua;
+   margin: 20px;
+}
+.image11{
+  animation-name: movetoptobotton2;
+    animation-duration: 5s;
+
+}
+@keyframes movetoptobotton2{
+           from{   
+            opacity: 0;                       
+            transform: translateY(-20px) ;
+            
+           }
+          
+           to{
+            opacity: 1 ;
+          transform: translateY(0);
+           
+           }
+        }
+.second{
+    text-align: center;
+      color: rgb(5, 3, 0);
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+   border: 15px groove aqua;
+   margin: 20px;
+
+}
+.second1{
+  animation-name: movetoptobotton3;
+    animation-duration: 6s;
+
+}
+@keyframes movetoptobotton3{
+           from{   
+            opacity: 0;                       
+            transform: translateY(-20px) ;
+            
+           }
+          
+           to{
+            opacity: 1 ;
+          transform: translateY(0);
+           
+           }
+        }
+.third
+{
+    text-align: center;
+   color: rgb(5, 3, 0);
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+   border: 15px groove aqua;
+   margin: 20px;
+
+   
+}
+
+.third1{
+  animation-name: movetoptobotton4;
+    animation-duration: 7s;
+
+}
+@keyframes movetoptobotton4{
+           from{   
+            opacity: 0;                       
+            transform: translateY(-20px) ;
+            
+           }
+          
+           to{
+            opacity: 1 ;
+          transform: translateY(0);
+           
+           }
+        }
+
+.fourth
+{
+    text-align: center;
+     color: rgb(5, 3, 0);
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+   border: 15px groove aqua;
+   margin: 20px;
+
+}
+.fourth1{
+  animation-name: movetoptobotton5;
+    animation-duration: 10s;
+
+}
+@keyframes movetoptobotton5{
+           from{   
+            opacity: 0;                       
+            transform: translateY(-20px) ;
+            
+           }
+          
+           to{
+            opacity: 1 ;
+          transform: translateY(0);
+           
+           }
+        }

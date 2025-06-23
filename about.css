@@ -1,0 +1,95 @@
+.h1{
+  
+   border: 10px groove rgb(0, 217, 255);
+   margin: 5px;
+   background-color: rgb(50, 49, 49);
+ 
+ 
+}
+.logoji{
+
+    margin-top: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 25px;
+   animation-name: logo;
+   animation-duration: 2s;
+   
+   animation-timing-function: linear  ;
+}
+
+@keyframes logo {
+  from{
+    transform: rotate(0deg)scale(1.0);
+  }
+  to{
+    transform: rotate(360deg) scale(1.1);
+  }
+  
+}
+.name1{
+   color :white;
+   text-align: center;
+    background-color: rgb(50, 49, 49);
+  width: 500px;
+  display: inline-block;
+ padding-left: 350px;
+ margin-bottom: 20px;
+
+ animation-name: movetoptobotton1;
+    animation-duration: 2s;
+}
+@keyframes movetoptobotton1{
+           from{   
+            opacity: 0;                       
+            transform: translateY(-20px) ;
+            
+           }
+          
+           to{
+            opacity: 1 ;
+          transform: translateY(0);
+           
+           }
+        }
+        .n1{
+            color: white;
+            animation-name: movetoptobotton1;
+    animation-duration: 2s;
+        }
+        @keyframes movetoptobotton1{
+           from{   
+            opacity: 0;                       
+            transform: translateY(-20px) ;
+            
+           }
+          
+           to{
+            opacity: 1 ;
+          transform: translateY(0);
+           
+           }
+        }
+  
+.button1
+{
+    
+    background-color:skyblue;
+    animation-name: movetoptobotton;
+    animation-duration: 2s;
+
+}
+@keyframes movetoptobotton{
+           from{   
+            opacity: 0;                       
+            transform: translateY(-20px) ;
+            
+           }
+          
+           to{
+            opacity: 1 ;
+          transform: translateY(0);
+           
+           }
+        }

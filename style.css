@@ -1,0 +1,27 @@
+
+         h1{
+    color :red;
+    text-align: center;
+    background-color: aqua;
+         }
+      #sample{
+    color :rgb(255, 0, 0);
+    text-align: center;
+    background-color: aqua;
+    }
+    body{
+     background-image: url(bg1.webp) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%; 
+   padding: 2rem; 
+   display: flex; 
+   flex-wrap: wrap; 
+   justify-content: center; 
+   gap: 2rem;
+   border-radius: 30%;
+    }
+    p{
+     font-family: Arial;
+     font-size: 70px;
+    }

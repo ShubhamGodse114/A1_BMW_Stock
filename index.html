@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home PAGE</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 1rem;
+    }
+
+    .h1 {
+      border: 10px groove rgb(0, 217, 255);
+      background-color: rgb(50, 49, 49);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    .logoji img {
+      width: 80px;
+      animation: logo 2s linear;
+    }
+
+    @keyframes logo {
+      from {
+        transform: rotate(0deg) scale(1.0);
+      }
+      to {
+        transform: rotate(360deg) scale(1.1);
+      }
+    }
+
+    .name1 {
+      color: white;
+      text-align: center;
+      animation: movetoptobotton1 2s;
+    }
+
+    @keyframes movetoptobotton1 {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .button1 {
+      background-color: skyblue;
+      padding: 1rem;
+      text-align: center;
+      animation: movetoptobotton 2s;
+    }
+
+    .button1 a {
+      display: inline-block;
+      margin: 0.5rem;
+    }
+
+    .button1 input {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+
+    @keyframes movetoptobotton {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .home img,
+    .image1 img,
+    .second img,
+    .third img,
+    .fourth video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .section {
+      border: 15px groove aqua;
+      margin: 20px auto;
+      padding: 20px;
+      color: #050300;
+      text-align: center;
+      max-width: 1200px;
+    }
+
+    .section h1 {
+      margin-bottom: 1rem;
+    }
+
+    .image11,
+    .second1,
+    .third1,
+    .fourth1 {
+      animation: fadein 2s ease-in-out;
+    }
+
+    @keyframes fadein {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Responsive layout */
+    @media screen and (max-width: 768px) {
+      .button1 a, .button1 input {
+        display: block;
+        width: 100%;
+        margin: 0.3rem auto;
+      }
+
+      .name1 {
+        font-size: 1.2rem;
+        width: 100%;
+        padding: 0;
+      }
+
+      .logoji img {
+        width: 60px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="h1">
+    <div class="logoji"><img src="logo-bmw-m.svg" alt="BMW Logo"></div>
+    <div class="name1"><h1><b>Welcome To BMW Cars</b></h1></div>
+  </div>
+
+  <div class="button1">
+    <a href="index.html"><input type="button" value="Home 🏠"></a>
+    <a href="gallery.html"><input type="button" value="Gallery 🖼"></a>
+    <a href="📞 Contact Us.html"><input type="button" value="📞 Contact Us"></a>
+    <a href="about.html"><input type="button" value="About Us 📕"></a>
+  </div>
+
+  <div class="home">
+    <img src="BBB.jpeg" alt="BMW Banner">
+  </div>
+
+  <div class="image1 section">
+    <div class="image11"><h1>BMW M SPORTS</h1></div>
+    <p>
+      THE BEST OF THE BEST. BMW M Sports Trophy supports private drivers and teams at global racing events.<br><br>
+      Every top-ten result scores points. Top 25 drivers and 10 teams win prize money.<br><br>
+      Justin Rothberg won Pro-Am Champion in GT World Challenge America. Turner Motorsport dominated with BMW M4 GT3 and GT4 in multiple series.
+    </p>
+    <img src="m.jpg" alt="BMW M Sports">
+  </div>
+
+  <div class="second section">
+    <div class="second1"><h1>BMW M ELECTRIFIED</h1></div>
+    <p>
+      BMW M electrified models enhance performance with innovation.<br><br>
+      Powerful acceleration, advanced dynamics, and electric excellence in both production and racing concepts.
+    </p>
+    <img src="e.webp" alt="BMW Electric Cars">
+  </div>
+
+  <div class="third section">
+    <div class="third1"><h1>RACING SERIES</h1></div>
+    <p>
+      The Intercontinental GT Challenge (IGTC) 2025: 5 races, 4 continents.<br>
+      Featuring BMW M Motorsport on a global racing stage.
+    </p>
+    <img src="r.webp" alt="BMW Racing">
+  </div>
+
+  <div class="fourth section">
+    <div class="fourth1"><h1>SNOW & ICE EXPERIENCE</h1></div>
+    <video controls autoplay muted loop poster="vi.mp4">
+      <source src="vi.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+</body>
+</html>

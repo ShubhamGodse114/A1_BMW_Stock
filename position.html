@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+      
+       .container{
+        position: relative;
+        height: 200px;
+        border: 10px groove red;
+        margin-top: 100px;
+       }
+       .relativebox{
+        position: relative;
+        background-color: aquamarine;
+        width: 100px;
+        height: 100px;
+        top: 20px;
+        left: 20px;
+       }
+       .absolutebox{
+        position: absolute;
+        background-color: aquamarine;
+        width: 100px;
+        height: 100px;
+        top: 20px;
+        right: 20px;
+       }
+       .Fixedbox{
+        position: fixed;
+        top: 10px;
+        background-color: aqua;
+        left: 20px;
+        padding: 8px 16px;
+        color: white;
+        font-weight: bold;
+       }
+    </style>
+</head>
+<body>
+    <div class="Fixedbox"> Fixed Navbar </div>
+    <div class="container">
+        <div class="relativebox">relative</div>
+        <div class="absolutebox"> absolute</div>
+    </div>
+</body>
+</html>
